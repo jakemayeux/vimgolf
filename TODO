@@ -1,0 +1,8 @@
+I want to split javascript up into seperate files based on what code is handling what aspects of the site
+
+Here are the JS files and their functions that they need to do
+
+auth.js //functions for handling user data, creating new users and logging people in with google or github or what
+render.js //automates some aspects of page rendering
+main.js //will be the only file to call functions defined by other files (exceptions may apply) applies functions from render js and handles: scoring, scoreboard, chat?, gamelogic, etc
+submit.js // for the place where you submit new puzzles. idk if this really needs to be here but idk the more files there are the easier it is to collaborate
